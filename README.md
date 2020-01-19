@@ -7,7 +7,7 @@ It is recommended to add pyprint.py to your crontab to run every minute.
  
 Pyprint looks for the following files in the installation directory:
 * credentials: Contains the credentials of the email account in the following format
-    1. host e.g. ‘Outlook.office365.com’
-    2. username
-    3. password (unencrypted) 
+    + line 1: host e.g. ‘Outlook.office365.com’
+    + line 2: username
+    + line 3: password (unencrypted) 
 * whitelist: Contains a list of trusted email addresses
